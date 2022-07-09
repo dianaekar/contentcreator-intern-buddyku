@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Formulir</title>
+
+        <!-- berikut contoh CSS dari External CSS -->
+        <!-- jadi isi dari css sudah berpidah ke file yang berbeda, jika ingin edit silahkan buka file tersebut -->
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <!-- 1. Buatlah sebuah Judul dengan tulisan 'Ini adalah Formulir' pada titik-titik bawah ini -->
+        <h1>Ini adalah Formulir</h1>
+
+        <form>
+            <!-- Contoh dari input text -->
+            <label id="Nama" for="Name">Nama Lengkap : </label> <br>
+            <input type="text">
+
+            <br><br>
+
+            <!-- 2. Buatlah sebuah input untuk NIM, isi pada titik-titik tersebut -->
+            <label id="NIM" for="NIM">NIM : </label> <br>
+            <input type="text">
+
+            <br><br>
+
+            <!-- Contoh dari input radio -->
+            <label for="sex" id="jenis_kelamin">Jenis Kelamin : </label> <br>
+            <input type="radio" id="L" value="L">
+            <label for="L">Laki - laki</label> <br>
+            <input type="radio" id="P" value="P">
+            <label for="P">Perempuan</label> <br>
+
+            <!-- 3. Buatlah sebuah input tipe radio berisikan "Aktif" atau "Tidak Aktif" -->
+            <label for="sex">Keaktifan : </label> <br>
+            <input type="radio" id="aktif" value="aktif">
+            <label for="L">Aktif</label> <br>
+            <input type="radio" id="tidak_aktif" value="tidak_aktif">
+            <label for="P">Tidak</label> <br><br>
+
+            <input type="submit" id="submit" value="submit">
+
+            <br><br>
+
+            <!-- dan contoh lain tipe input lain bisa lihat dilink bawah ini -->
+            <a href="https://www.w3schools.com/html/html_form_input_types.asp">Contoh tipe input lain</a>
+        </form>
+    </body>
+</html>

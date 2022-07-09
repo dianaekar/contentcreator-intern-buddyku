@@ -1,0 +1,5 @@
+Pastikan menggunakan editor seperti:
+-Visual Studio Code
+-Notepad+
+-Sublime Text
+dll
